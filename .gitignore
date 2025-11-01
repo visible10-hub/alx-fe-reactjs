@@ -1,0 +1,4 @@
+# Node and build artifacts for the nested app
+/alx-react-app/node_modules
+alx-react-app/dist
+alx-react-app/.vite
