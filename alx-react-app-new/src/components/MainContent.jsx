@@ -5,18 +5,17 @@ export default function MainContent() {
   return (
     <main style={{
       padding: '20px',
-      display: 'flex',
-      gap: '18px',
-      flexWrap: 'wrap',
-      justifyContent: 'center',
-      backgroundColor: '#f7f9fc'
+      backgroundColor: '#f7f9fc',
+      textAlign: 'center'
     }}>
+      <p style={{ fontSize: '1.1rem', marginBottom: '20px' }}>
+        I love to visit New York, Paris, and Tokyo.
+      </p>
+
       <section style={{
-        maxWidth: 920,
-        width: '100%',
         display: 'flex',
-        gap: '18px',
         justifyContent: 'center',
+        gap: '18px',
         flexWrap: 'wrap'
       }}>
         <UserProfile name="Alice" age={25} bio="Loves hiking and photography" />
@@ -26,5 +25,6 @@ export default function MainContent() {
     </main>
   );
 }
+
 
 
