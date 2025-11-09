@@ -13,9 +13,9 @@ export default function UserProfile(props) {
       boxShadow: '0 6px 18px rgba(15,15,15,0.06)',
       background: 'linear-gradient(180deg, #fff, #fbfdff)'
     }}>
-      <h2 style={{ color: '#0b5cff', fontSize: '1.4rem', margin: '0 0 6px' }}>
-        {name}
-      </h2>
+      <h2 style={{ color: 'blue' }}>
+  {props.name}
+</h2>
 
       <p style={{ margin: '4px 0', fontSize: '0.95rem' }}>
         Age: <span style={{ fontWeight: 700 }}>{age}</span>
